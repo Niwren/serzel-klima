@@ -103,7 +103,7 @@ export default function HizmetlerClient() {
       {/* Main Services */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {/* Klima Bakım ve Onarım */}
             <div className="bg-white rounded-2xl shadow-lg p-8">
               <div className="text-6xl mb-6">❄️</div>
@@ -193,6 +193,51 @@ export default function HizmetlerClient() {
                 </p>
               </div>
             </div>
+            {/* Kombi Bakım, Montaj ve Servis */}
+            <div className="bg-white rounded-2xl shadow-lg p-8">
+              <div className="text-6xl mb-6">🔥</div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Kombi Bakım, Montaj ve Servis</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Kombilerinizin güvenli, verimli ve uzun ömürlü çalışması için bakım, montaj ve arıza giderme hizmetleri sunuyoruz.
+              </p>
+              
+              <div className="space-y-4 mb-8">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">Hizmetlerimiz:</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-center">
+                    <span className="text-green-500 mr-3">✓</span>
+                    Yıllık bakım ve genel temizlik
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-green-500 mr-3">✓</span>
+                    Petek temizliği ve performans artırma
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-green-500 mr-3">✓</span>
+                    Kombi montajı ve devreye alma
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-green-500 mr-3">✓</span>
+                    Arıza tespiti ve onarımı
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-green-500 mr-3">✓</span>
+                    Gaz kaçağı kontrolü ve güvenlik testi
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-green-500 mr-3">✓</span>
+                    Parça değişimi ve orijinal yedek parça desteği
+                  </li>
+                </ul>
+              </div>
+              
+              <div className="bg-green-50 p-4 rounded-lg">
+                <p className="text-green-800 font-semibold">
+                  💡 Tavsiye: Kombi bakımınızı yılda en az 1 kez yaptırarak hem yakıt tasarrufu sağlayın hem de arıza riskini azaltın.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>

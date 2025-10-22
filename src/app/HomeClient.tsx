@@ -186,11 +186,12 @@ export default function HomeClient() {
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Acil Servis</h3>
               <p className="text-gray-600">7/24 acil servis hizmeti ile hızlı müdahale ve çözüm.</p>
             </div>
-            
             <div className="bg-yellow-50 p-6 rounded-xl hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-4">🛡️</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Garanti ve Bakım Sözleşmesi</h3>
-              <p className="text-gray-600">Uzun vadeli bakım sözleşmeleri ve garanti hizmetleri.</p>
+              <div className="text-4xl mb-4">🔥</div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Kombi Bakım</h3>
+              <p className="text-gray-600">
+                Kombinizin verimli ve güvenli çalışması için periyodik bakım, arıza tespiti ve temizlik hizmetleri.
+              </p>
             </div>
           </div>
         </div>
